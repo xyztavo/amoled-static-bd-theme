@@ -5,16 +5,15 @@
 	--font-display: var(--font-primary) !important;
 	/* Dark Matter Variables */
 	--avatar-size: 32px;
-    --background-image: url('./assets/static.gif') ;
+	--background-image: url('./assets/static.gif');
 	--home-image: url('./assets/cat-drift.gif');
 	--background-solid: rgba(0, 0, 0, 0.6);
 	--background-solid-dark: rgba(0, 0, 0, 0.6);
 	--background-solid-darker: rgba(0, 0, 0, 0.7);
-	--accent: 100, 100, 100; 
-	--accent-alt:  100, 100, 100; // scroll bar
+	--accent: 100, 100, 100;
+	--accent-alt: 100, 100, 100;
 	--md-black: 50, 50, 50;
 	--dm-white: 255, 255, 255;
-	/* BlurpleRecolor */
 	--accentcolor: var(--accent);
 	--vaccentcolor-hover: rgb(var(--accent));
 	--vaccentcolor-active: rgb(var(--accent));
@@ -54,8 +53,8 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--deprecated-card-bg: rgba(var(--dm-white), 0.05);
 	--text-link: rgba(var(--accent-alt), 1);
 	--focus-primary: rgba(var(--md-black), 1);
-    --modal-background: var(--md-black);
-    --modal-footer-background: var(--md-black);
+	--modal-background: var(--md-black);
+	--modal-footer-background: var(--md-black);
 }
 
 ::selection {
@@ -69,13 +68,13 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	width: 14px !important;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	border-radius: 8px !important;
 	border: 3px solid transparent !important;
 	background-color: rgba(163, 163, 163, 0.2) !important;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 	visibility: visible !important;
 	border-radius: 8px !important;
 	border: 3px solid transparent !important;
@@ -125,11 +124,12 @@ div[class*="typeWindows-"]::after {
 /* Guilds */
 
 nav[class*="guilds-"] {
-    background: transparent;
+	background: transparent;
 }
+
 ul[data-list-id='guildsnav'] {
 	--background-secondary: var(--background-solid);
-    	--background-primary: rgba(var(--dm-white), 1);
+	--background-primary: rgba(var(--dm-white), 1);
 	margin-bottom: 70px;
 	background-color: rgba(var(--md-black), 0.6);
 	border-right: 1px solid rgba(var(--md-black), 0.2);
@@ -172,7 +172,7 @@ span[class^="expandedFolderBackground-"] {
 }
 
 .wrapper-28eC3z,
-[data-list-id='guildsnav'] [data-dnd-name] > div,
+[data-list-id='guildsnav'] [data-dnd-name]>div,
 [data-list-id='guildsnav'] svg[width="48"] {
 	width: 40px;
 	height: 40px;
@@ -211,7 +211,7 @@ div[data-list-item-id="guildsnav___guild-discover-button"]:hover {
 
 .platform-win [class^="sidebar-"] {
 	border-radius: 0;
-    background-color: transparent;
+	background-color: transparent;
 }
 
 div[class^="sidebar-"] nav,
@@ -230,11 +230,11 @@ div[class^="sidebar-"]>nav>div[class^="searchBar"] {
 	--background-modifier-hover: rgba(var(--dm-white), 1);
 	--background-modifier-active: var(--background-modifier-hover);
 	--background-modifier-selected: rgba(var(--dm-white), 1);
-    background: rgb(var(--md-black), 1);
+	background: rgb(var(--md-black), 1);
 }
 
 div[data-list-id^="members-"][class*="scrollerBase-"] {
-    background: transparent;
+	background: transparent;
 }
 
 div[data-list-id^="members-"] [class*="placeholder"] {
@@ -246,8 +246,9 @@ div[class^='nowPlayingColumn'] {
 	--background-primary: rgba(var(--md-black), 0.5);
 	--background-modifier-hover: rgba(var(--dm-white), 0.075);
 }
+
 div[class^="members-"] div[class^="member-"] {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 #channels div[class^="unread-"] {
@@ -274,7 +275,7 @@ body {
 }
 
 #app-mount {
-    background-color: transparent;
+	background-color: transparent;
 	--background-tertiary: transparent;
 	--background-secondary: transparent;
 }
@@ -285,12 +286,14 @@ body {
 	--background-secondary: rgba(var(--md-black), 1);
 	background-color: rgba(var(--md-black), 1);
 }
+
 div[class^="notAppAsidePanel-"]>div[class^="app-"]>div[class^="app-"],
 div[class^="app-"]>div[class^="bg-"] {
-    background-color: transparent;
+	background-color: transparent;
 }
+
 div[class*="baseLayer-"]>div[class^="container-"] {
-    background-color: rgb(var(--md-black), 0.4);
+	background-color: rgb(var(--md-black), 0.4);
 }
 
 nav+div [class^='sidebar-'],
@@ -300,7 +303,7 @@ nav+div[class^='base-'] {
 	max-width: calc(100% - 72px);
 }
 
-nav+div[class^='base-'] > div[class^="notice"] {
+nav+div[class^='base-']>div[class^="notice"] {
 	border-radius: 0;
 }
 
@@ -325,7 +328,7 @@ section[class*="themed-"] {
 section[class*="themed-"] {
 	height: 54px;
 	box-shadow: var(--elevation-low);
-    background-color: rgb(var(--md-black), 0.925) !important;
+	background-color: rgb(var(--md-black), 0.925) !important;
 	--background-secondary: rgba(var(--dm-white), 0.1);
 }
 
@@ -377,8 +380,9 @@ div[class^='sidebar-']>section>div:last-child {
 	left: -72px;
 	bottom: 0;
 }
+
 div[class^="sidebar-"]>section>div:last-child [class^="avatarWrapper-"] {
-    flex: 1;
+	flex: 1;
 }
 
 
@@ -386,7 +390,7 @@ div[class^="sidebar-"]>section>div:last-child [class^="avatarWrapper-"] {
 
 div[class^='chat'] {
 	--background-floating: rgba(var(--md-black), 0.5);
-    background: transparent;
+	background: transparent;
 }
 
 div[class^="container-"][id^="chat-messages-"] {
@@ -742,8 +746,9 @@ div[class*="footerSeparator"] {
 
 /* Forums */
 .container-3wLKDe {
-    background: var(--background-primary);
+	background: var(--background-primary);
 }
+
 li[class^="card-"]>div[class^="container-"] {
-    background: var(--background-floating)
+	background: var(--background-floating)
 }
