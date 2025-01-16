@@ -1,5 +1,5 @@
 /**
-* @name rounded-amoled-static
+* @name Rounded Amoled Static
 * @author xyztavo (Original Author: ustav)
 * @description Simple amoled black + rounded corners theme with static background and animated cat drifting
 * @source https://github.com/xyztavo/better-discord-themes
@@ -7,12 +7,16 @@
 */
 
 /*  imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
 @import url("https://tiredmala.github.io/animcord/animcordmain.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 :root {
+  --font-primary: "Sawarabi Gothic", serif;
+	--font-display: var(--font-primary) !important;
   --dark-primary: #000000;
   --dark-secondary: #050505;
   --dark-secondary-alt: #080808;
