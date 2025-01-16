@@ -19,25 +19,25 @@
 	--font-display: var(--font-primary) !important;
   --dark-primary: #000000;
   --dark-secondary: #050505;
-  --dark-secondary-alt: #080808;
+  --dark-secondary-alt: #050505;
   --dark-bright: #0b0b0b;
   --roundmoled-background: url('./assets/static.gif');
   --popout-activeborders: #0e0e0e;
-  --background-tertiary: #0e0e0e;
-  --background-secondary: #0e0e0e;
-  --background-secondary-alt: var(--dark-primary);
-  --background-primary: var(--dark-primary);
+  --background-tertiary: #050505;
+  --background-secondary: #050505;
+  --background-secondary-alt: #050505;
+  --background-primary: #050505;
   --channeltextarea-background: #070b10;
-  --background-accent: var(--brand-experiment);
+  --background-accent: #050505;
   --background-message-hover: transparent;
-  --background-modifier-hover: #36559138;
-  --background-modifier-active: #36559138;
-  --background-modifier-selected: #406abb38;
+  --background-modifier-hover: #3a3a3a38;
+  --background-modifier-active: #33333338;
+  --background-modifier-selected: #30303038;
   --background-floating: var(--dark-primary);
   --scrollbar-auto-track: #0d0d0d;
   --scrollbar-thin-thumb: var(--brand-experiment);
   --background-image: url('./assets/static.gif');
-  --background-overlay: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed (0.5 = 50% black) */
+  --background-overlay: rgba(0, 0, 0, 0.92); /* Adjust opacity as needed (0.5 = 50% black) */
 }
 
 
@@ -45,7 +45,7 @@
 .appMount_ea7e65,
 .bg_d4b6c5 {
   background: linear-gradient(var(--background-overlay), var(--background-overlay)), var(--background-image) center repeat;
-  background-size: 200px; /* Adjust this value to make the image smaller or larger */
+  background-size: 300px 300px; /* Adjust this value to make the image smaller or larger */
 }
 
 /* Adjust background colors to be slightly transparent */
